@@ -21,7 +21,7 @@ class Board:
                     for i in range(int(char)):
                         self.board[row][col] = '-'
                         col += 1
-            
+
     #print the position
     def print_position(self):
         for row in self.board:
